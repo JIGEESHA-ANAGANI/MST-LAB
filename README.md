@@ -22,6 +22,7 @@ EduGuard is a responsive and accessible student registration and login interface
 
    ```bash
    git clone https://github.com/yourusername/eduguard.git
+   
 Navigate to the project directory:
 
 bash
@@ -35,16 +36,16 @@ You can open index.html directly in your web browser.
 Alternatively, use a live server extension in your code editor for real-time preview.
 
 📁 Project Structure
-bash
-Copy
-Edit
-eduguard/
-├── index.html            # Home page
-├── register.html         # Student registration form
-├── login.html            # User login form
-├── css/
-│   └── styles.css        # Stylesheet for the project
-└── README.md             # Project documentation
+     ```bash
+     
+     eduguard/
+     ├── index.html            # Home page
+     ├── register.html         # Student registration form
+     ├── login.html            # User login form
+     ├── css/
+     │   └── styles.css        # Stylesheet for the project
+     └── README.md             # Project documentatio
+
 🖥️ Usage
 Registration:
 
@@ -92,14 +93,5 @@ Contributions are welcome! To contribute:
 Fork the repository.
 
 Create a new branch:
-
-git checkout -b feature/your-feature-name
-Make your changes and commit them:
-
-
-git commit -m 'Add your message here'
-Push to the branch:
-
-
-git push origin feature/your-feature-name
-Open a pull request detailing your changes.
+   ```bash
+      git checkout -b feature/your-feature-name
