@@ -2,6 +2,9 @@
 
 EduGuard is a responsive and accessible student registration and login interface built entirely with HTML and CSS. It serves as a foundational front-end project for educational platforms, emphasizing clean design and user-friendly forms.
 
+## 🔗 Live Server Link  
+Click here to view the live site: https://magenta-moonbeam-81d757.netlify.app/
+
 ## 📋 Features
 
 - **Student Registration Form**: Collects user details such as first name, last name, email, phone number, password, and course selection.
