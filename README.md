@@ -5,6 +5,9 @@ It serves as a foundational **front-end project** for educational platforms, emp
 
 ---
 
+## 🔗 Live Server Link  
+Click here to view the live site: https://magenta-moonbeam-81d757.netlify.app/
+
 ## 📋 Features
 
 ✅ **Student Registration Form** – Collects user details: first name, last    name, email, phone number, password, and course selection.\
