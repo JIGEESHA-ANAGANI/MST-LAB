@@ -1,97 +1,106 @@
-# EduGuard
+# 🎓 EduGuard
 
-EduGuard is a responsive and accessible student registration and login interface built entirely with HTML and CSS. It serves as a foundational front-end project for educational platforms, emphasizing clean design and user-friendly forms.
+EduGuard is a **responsive** and **accessible** student registration and login interface built entirely with **HTML** and **CSS**.
+It serves as a foundational **front-end project** for educational platforms, emphasizing **clean design** and **user-friendly forms**.
+
+---
 
 ## 📋 Features
 
-- **Student Registration Form**: Collects user details such as first name, last name, email, phone number, password, and course selection.
-- **Login Form**: Allows existing users to log in using their email and password.
-- **Responsive Design**: Ensures usability across various devices and screen sizes.
-- **Accessible Markup**: Utilizes semantic HTML elements for improved accessibility.
+✅ **Student Registration Form** – Collects user details: first name, last    name, email, phone number, password, and course selection.\
+✅ **Login Form** – Allows existing users to log in using their email and password.\
+✅ **Responsive Design** – Works seamlessly on desktops, tablets, and mobile devices.\
+✅ **Accessible Markup** – Uses semantic HTML elements to improve accessibility.
+
+---
 
 ## 🚀 Getting Started
 
-### Prerequisites
-
+### **Prerequisites**
 - A modern web browser (e.g., Chrome, Firefox, Edge)
 - A code editor (e.g., Visual Studio Code, Sublime Text)
 
-### Installation
+### **Installation**
 
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/yourusername/eduguard.git
-   
-Navigate to the project directory:
-
-bash
-Copy
-Edit
+1️⃣ **Clone the repository**
+```bash
+git clone [https://github.com/yourusername/eduguard.git](https://github.com/yourusername/eduguard.git)
+```
+2️⃣ **Navigate to the project directory**
+```bash
 cd eduguard
-Open the project:
+```
+3️⃣ **Open the project**
 
-You can open index.html directly in your web browser.
+Open `index.html` directly in your browser, or use the Live Server extension in VS Code for real-time preview.
 
-Alternatively, use a live server extension in your code editor for real-time preview.
+### 📂 Project Structure
+```
+eduguard/
+├── index.html          # Home page
+├── register.html       # Student registration form
+├── login.html          # User login form
+├── css/
+│   └── styles.css      # Stylesheet
+└── README.md           # Documentation
+```
 
-📁 Project Structure
-     ```bash
-     
-     eduguard/
-     ├── index.html            # Home page
-     ├── register.html         # Student registration form
-     ├── login.html            # User login form
-     ├── css/
-     │   └── styles.css        # Stylesheet for the project
-     └── README.md             # Project documentatio
+### 🖥️ Usage
 
-🖥️ Usage
-Registration:
+**Registration**
+1. Open `register.html`
+2. Fill in the required fields (First Name, Last Name, Email, Phone Number, Password, Course)
+3. Click `Register`
 
-Navigate to register.html.
+**Login**
+1. Open `login.html`
+2. Enter registered Email & Password
+3. Click `Login`
 
-Fill in the required fields: first name, last name, email, phone number, password, and course selection.
+⚠️ **Note:** This is a front-end-only project. No backend processing is implemented yet. Backend integration is needed for full functionality.
 
-Click the "Register" button to submit the form.
+---
 
-Login:
+## 🎨 Customization
 
-Navigate to login.html.
+### **Styling**
+Modify `css/styles.css` to change colors, fonts, spacing, or layout.
 
-Enter your registered email and password.
+### **Form Fields**
+Update `register.html` or `login.html` to add/remove input fields. Ensure corresponding labels and placeholders are updated.
 
-Click the "Login" button to access your account.
+---
 
-Note: As this project is purely front-end, form submissions do not process data. Backend integration is required for full functionality.
+## 📚 Resources
 
-🎨 Customization
-Styling:
+- [W3Schools – Create a Register Form](https://www.w3schools.com/howto/howto_css_register_form.asp)
+- [W3Schools – Create a Login Form](https://www.w3schools.com/howto/howto_css_login_form.asp)
+- [GeeksforGeeks – HTML Registration Form](https://www.geeksforgeeks.org/html-registration-form/)
+- [GeeksforGeeks – HTML Login Form](https://www.geeksforgeeks.org/html-login-form/)
 
-Modify css/styles.css to change the visual appearance of the forms.
+---
 
-Customize colors, fonts, spacing, and layout as desired.
+## 🤝 Contributing
 
-Form Fields:
+Contributions are welcome!
 
-Update register.html and login.html to add or remove input fields.
+1.  **Fork** the repository
+2.  **Create a branch**
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+3.  **Commit your changes**
+    ```bash
+    git commit -m "Add your feature description"
+    ```
+4.  **Push to your branch**
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+5.  **Open a Pull Request**
 
-Ensure corresponding labels and placeholders are updated accordingly.
+---
 
-📚 Resources
-W3Schools: How To Create a Register Form
+## 📜 License
 
-W3Schools: How To Create a Login Form
-
-GeeksforGeeks: HTML Registration Form
-
-GeeksforGeeks: HTML Login Form
-
-🤝 Contributing
-Contributions are welcome! To contribute:
-
-Fork the repository.
-
-Create a new branch:
-   ```bash
-      git checkout -b feature/your-feature-name
+This project is licensed under the MIT License – see the `LICENSE` file for details.
